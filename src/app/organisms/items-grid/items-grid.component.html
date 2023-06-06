@@ -1,1 +1,7 @@
-<p>items-grid works!</p>
+<app-product-card
+  *ngFor="let item of listItems"
+  class="col-12 col-md-6 col-lg-4"
+  [name]="item.name"
+  [image]="item.image"
+  [price]="item.price"
+></app-product-card>

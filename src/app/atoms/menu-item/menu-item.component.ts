@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-menu-item',
   templateUrl: './menu-item.component.html',
-  styleUrls: ['./menu-item.component.css']
+  styleUrls: ['./menu-item.component.css'],
 })
 export class MenuItemComponent {
+  @Input() textUrl: string = '';
+  @Input() url: string = '';
 
+  constructor() {}
 }

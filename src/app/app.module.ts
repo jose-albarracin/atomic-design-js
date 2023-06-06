@@ -9,6 +9,8 @@ import { HeaderComponent } from './organisms/header/header.component';
 import { ItemsGridComponent } from './organisms/items-grid/items-grid.component';
 import { TShirtComponent } from './pages/t-shirt/t-shirt.component';
 import { LayoutComponent } from './templates/layout/layout.component';
+import { PantsComponent } from './pages/pants/pants.component';
+import { ProductCardComponent } from './molecules/product-card/product-card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { LayoutComponent } from './templates/layout/layout.component';
     HeaderComponent,
     ItemsGridComponent,
     TShirtComponent,
-    LayoutComponent
+    LayoutComponent,
+    PantsComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,
