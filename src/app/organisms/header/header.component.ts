@@ -11,8 +11,12 @@ export class HeaderComponent {
   constructor() {
     this.menuList = [
       {
-        name: 'T-Shirt',
+        name: 'Home',
         url: '/',
+      },
+      {
+        name: 'T-Shirt',
+        url: '/t-shirt',
       },
       {
         name: 'Pants',

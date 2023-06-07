@@ -11,6 +11,12 @@ import { TShirtComponent } from './pages/t-shirt/t-shirt.component';
 import { LayoutComponent } from './templates/layout/layout.component';
 import { PantsComponent } from './pages/pants/pants.component';
 import { ProductCardComponent } from './molecules/product-card/product-card.component';
+import { LogoComponent } from './atoms/logo/logo.component';
+import { TopBarComponent } from './atoms/top-bar/top-bar.component';
+import { HomeComponent } from './pages/home/home.component';
+import { SectionPrincipalComponent } from './molecules/section-principal/section-principal.component';
+import { BtnPrincipalComponent } from './atoms/btn-principal/btn-principal.component';
+import { DefaultComponent } from './templates/default/default.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +28,13 @@ import { ProductCardComponent } from './molecules/product-card/product-card.comp
     TShirtComponent,
     LayoutComponent,
     PantsComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    LogoComponent,
+    TopBarComponent,
+    HomeComponent,
+    SectionPrincipalComponent,
+    BtnPrincipalComponent,
+    DefaultComponent
   ],
   imports: [
     BrowserModule,
